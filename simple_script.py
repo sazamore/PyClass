@@ -13,5 +13,5 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 x = np.random.normal(0,2,(75,1));
-plt.figure()
 plt.hist(x)
+plt.show()
